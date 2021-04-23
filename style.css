@@ -1,0 +1,134 @@
+/* Sets up main color pallet */ 
+:root{
+	/* Blood red */
+	--R:#d11d1d;
+	/* Gold yellow */
+	--G:#ffbf00;
+	/* Black */
+	--B:#000000;
+}
+
+/* Logo for the main heading */
+#logo{
+	/* Size of pic */
+	height: 50px;
+	/* Floats pic to left */
+	float: left;
+	/* Padding between the pic and title */
+	padding-right: 5px;
+}
+
+/* Main heading */
+#pageTitle{
+	/* Color of main heading */ 
+	color: var(--G);
+	/* Size of title */
+	font-size: 44px;
+}
+
+/* Main page body */
+body{
+	/* Color of page */
+	background-color: var(--B);
+}
+
+/* Top Nav Main Formatting */
+#topnav{
+	/* Main color */
+	background-color: var(--R);
+	/* Overflow property if elements overflow box */
+	overflow: hidden;
+	/* */ 
+}
+
+/* Top Nav a Link Formatting */
+#topnav a{
+	/* Float button */
+	float: left;
+	/* Color of text */
+	color: var(--G);
+	/* Text alignment in button */ 
+	text-align: center;
+	/* Padding around text */
+	padding: 14px 16px;
+	/* Text decoration set to none */
+	text-decoration: none;
+	/* Sets font size */
+	font-size: 18px;
+}
+
+/* Top Nav a Link for Active Page Formatting */
+#topnav a#active{
+	/* Background color for active page button */
+	background-color: var(--B);
+	/* Color of text in active page button */
+	color: var(--R);
+}
+
+/* Top Nav a Link for Buttons when Hovering over it */
+#topnav a:hover{
+	/* Background color for hovering button */
+	background-color: var(--B);
+	/* Color of text of hovering page button */
+	color: var(--R);
+	/* Length of transition */
+	transition: 1s;
+}
+
+/* Heading 2 Formatting */
+h2{
+	/* Color of heading */
+	color: var(--G);
+}
+
+/* Heading 3 Formatting */
+h3{
+	/* Color of heading */
+	color: var(--R);
+}
+
+/* Text Formatting */
+p{
+	/* Color of text */
+	color: #ffffff;
+}
+
+/* Subtitle Formatting */
+h2#sub{
+	/* Italics */
+	font-style: italic;
+	/* Size */
+	font-size: 18px;
+}
+
+/*Iframe Editing */
+iframe{
+	/* Height and Width */
+	height: 700px;
+	width: 90%;
+}
+
+/* Archive Nav Main Formatting */
+#arcnav{
+	/* Main color */
+	background-color: var(--R);
+	/* Overflow property if elements overflow box */
+	overflow: hidden;
+	/* */ 
+}
+
+/* Archive Nav a Link Formatting */
+#arcnav a{
+	/* Float button */
+	float: left;
+	/* Color of text */
+	color: var(--G);
+	/* Text alignment in button */ 
+	text-align: center;
+	/* Padding around text */
+	padding: 14px 16px;
+	/* Text decoration set to none */
+	text-decoration: none;
+	/* Sets font size */
+	font-size: 18px;
+}
